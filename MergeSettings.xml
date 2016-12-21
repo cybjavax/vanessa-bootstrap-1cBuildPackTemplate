@@ -1,0 +1,68 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Settings xmlns="http://v8.1c.ru/8.3/config/merge/settings" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" platformVersion="8.3.8">
+	<Parameters>
+		<ConfigurationsRelation>ConfigurationsNotRelated</ConfigurationsRelation>
+		<AllowMainConfigurationObjectDeletion>false</AllowMainConfigurationObjectDeletion>
+		<CopyObjectsMode>false</CopyObjectsMode>
+	</Parameters>
+	<Objects>
+		<Configuration>
+			<MergeRule>DoNotMerge</MergeRule>
+		</Configuration>	
+		<Object fullName="Подсистема.ТестоваяПодсистема.Подсистема.Документы">
+			<Properties>
+				<Property name="Состав">
+					<MergeRule>GetFromSecondConfiguration</MergeRule>
+				</Property>
+			</Properties>
+		</Object>
+		<Object fullNameInSecondConfiguration="Документ.Поступление">
+			<MergeRule>GetFromSecondConfiguration</MergeRule>
+		</Object>
+		<Object fullNameInSecondConfiguration="Документ.Поступление.Реквизит.Контрагент">
+			<MergeRule>GetFromSecondConfiguration</MergeRule>
+		</Object>
+		<Object fullNameInSecondConfiguration="Документ.Поступление.Форма.ФормаДокумента">
+			<MergeRule>GetFromSecondConfiguration</MergeRule>
+		</Object>
+		<Object fullNameInSecondConfiguration="Документ.Поступление.ТабличнаяЧасть.Товары">
+			<MergeRule>GetFromSecondConfiguration</MergeRule>
+		</Object>
+		<Object fullNameInSecondConfiguration="Документ.Поступление.ТабличнаяЧасть.Товары.Реквизит.Номенклатура">
+			<MergeRule>GetFromSecondConfiguration</MergeRule>
+		</Object>
+		<Object fullNameInSecondConfiguration="Документ.Поступление.ТабличнаяЧасть.Товары.Реквизит.Количество">
+			<MergeRule>GetFromSecondConfiguration</MergeRule>
+		</Object>
+		<Object fullNameInSecondConfiguration="Документ.Поступление.ТабличнаяЧасть.Товары.Реквизит.Цена">
+			<MergeRule>GetFromSecondConfiguration</MergeRule>
+		</Object>
+		<Object fullNameInSecondConfiguration="Документ.Поступление.ТабличнаяЧасть.Товары.Реквизит.Сумма">
+			<MergeRule>GetFromSecondConfiguration</MergeRule>
+		</Object>
+		<Object fullNameInSecondConfiguration="Документ.Реализация">
+			<MergeRule>GetFromSecondConfiguration</MergeRule>
+		</Object>
+		<Object fullNameInSecondConfiguration="Документ.Реализация.Реквизит.Контрагент">
+			<MergeRule>GetFromSecondConfiguration</MergeRule>
+		</Object>
+		<Object fullNameInSecondConfiguration="Документ.Реализация.Форма.ФормаДокумента">
+			<MergeRule>GetFromSecondConfiguration</MergeRule>
+		</Object>
+		<Object fullNameInSecondConfiguration="Документ.Реализация.ТабличнаяЧасть.Товары">
+			<MergeRule>GetFromSecondConfiguration</MergeRule>
+		</Object>
+		<Object fullNameInSecondConfiguration="Документ.Реализация.ТабличнаяЧасть.Товары.Реквизит.Номенклатура">
+			<MergeRule>GetFromSecondConfiguration</MergeRule>
+		</Object>
+		<Object fullNameInSecondConfiguration="Документ.Реализация.ТабличнаяЧасть.Товары.Реквизит.Количество">
+			<MergeRule>GetFromSecondConfiguration</MergeRule>
+		</Object>
+		<Object fullNameInSecondConfiguration="Документ.Реализация.ТабличнаяЧасть.Товары.Реквизит.Цена">
+			<MergeRule>GetFromSecondConfiguration</MergeRule>
+		</Object>
+		<Object fullNameInSecondConfiguration="Документ.Реализация.ТабличнаяЧасть.Товары.Реквизит.Сумма">
+			<MergeRule>GetFromSecondConfiguration</MergeRule>
+		</Object>
+	</Objects>
+</Settings>
