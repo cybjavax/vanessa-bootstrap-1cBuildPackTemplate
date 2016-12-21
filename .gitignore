@@ -1,0 +1,29 @@
+distr
+
+# Общее
+# 1cbases/*
+# !1cbases/*.txt
+# cfs/*
+# !cfs/*.txt
+# allurereport/*
+# !allurereport/readme.txt
+BuildStatus.log
+
+# Логи в корне
+/*.txt
+
+# Конфигурация
+src/*
+!src/Configuration.xml
+
+# Документы
+!src/Documents/
+src/Documents/*
+
+# Документ.Поступление
+!src/Documents/Поступление/
+!src/Documents/Поступление.xml
+
+# Документ.Реализация
+!src/Documents/Реализация/
+!src/Documents/Реализация.xml
