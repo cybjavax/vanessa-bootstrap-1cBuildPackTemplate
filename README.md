@@ -1,4 +1,4 @@
-# Шаблон для проекта 1cBuildPack #
+# Шаблон для проекта [1cBuildPack](https://github.com/cybjavax/1cBuildPack) #
 
 Основан на [vanessa-bootstrap](https://github.com/silverbulleters/vanessa-bootstrap)
 
